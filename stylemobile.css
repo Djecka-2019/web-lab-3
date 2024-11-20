@@ -1,0 +1,104 @@
+﻿* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-wrap: break-word;
+}
+
+div {
+    font-family: Arial, sans-serif;
+    line-height: 23px;
+}
+
+.header, .footer {
+    background-color: rebeccapurple;
+    height: 10vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.item1, .item2, .item3, .item4, .item5, .item6, .item7 {
+    width: 100%;
+    padding: 10px;
+}
+
+.item1 {
+    background-color: rebeccapurple;
+}
+
+.item2 {
+    background-color: mediumpurple;
+    height: auto;
+    text-align: center;
+}
+
+.item3 {
+    background-color: white;
+    height: auto;
+}
+
+.item4 {
+    background-color: lavender;
+    height: auto;
+}
+
+.item5 {
+    background-color: lavender;
+    height: auto;
+}
+
+.item6 {
+    background-color: mediumpurple;
+    font-weight: bold;
+    font-size: 4vw;
+    height: auto;
+    line-height: normal;
+    text-align: center;
+}
+
+.item7 {
+    background-color: lightblue;
+}
+
+header, footer {
+    background-color: white;
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+}
+
+.x, .y {
+    background-color: white;
+    padding: 10px;
+    width: 100%;
+    font-size: 4vw;
+    text-align: center;
+}
+
+ul, ol {
+    padding: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.gif, .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.gif img, .img img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    max-height: 50vh;
+}
+
+.scrollable {
+    overflow-y: auto;
+}
