@@ -1,0 +1,144 @@
+﻿* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-wrap: break-word;
+}
+
+div {
+    font-family: Arial, sans-serif;
+    line-height: 23px;
+}
+
+.header, .footer {
+    background-color: rebeccapurple;
+    height: 10vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    height: 80vh;
+}
+
+.column1, .column2, .column3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.column1 {
+    width: 15%;
+}
+
+.column2 {
+    flex: 1;
+}
+
+.column3 {
+    width: 15%;
+}
+
+.item2 {
+    background-color: mediumpurple;
+    padding: 10px;
+    height: 15vh;
+    text-align: center;
+}
+
+.item5 {
+    background-color: lavender;
+    padding: 10px;
+    height: 65vh;
+}
+
+.item3 {
+    background-color: white;
+    padding: 10px;
+    height: 70vh;
+}
+
+.item4 {
+    background-color: lavender;
+    padding: 10px;
+    height: 80vh;
+}
+
+.item6 {
+    background-color: mediumpurple;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 2.5vw;
+    height: 10vh;
+    line-height: 60px;
+    text-align: center;
+    width: 100%;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+}
+
+.x {
+    background-color: white;
+    padding: 10px;
+    width: max-content;
+}
+
+.y {
+    background-color: white;
+    width: max-content;
+    padding: 10px;
+}
+
+ul {
+    padding: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+ol {
+    padding: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.gif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.gif img {
+    max-width: 100%;
+    height: auto;
+    width: 500px;
+    max-height: 50vh;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.img img {
+    width: 500px;
+    max-height: 50vh;
+}
+
+.scrollable {
+    overflow-y: auto;
+}
